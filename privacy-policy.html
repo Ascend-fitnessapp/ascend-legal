@@ -468,7 +468,66 @@
         with advertising networks. All analytics data is anonymized where
         possible and used solely to improve the App experience.
       </p>
-      <h3>2.8 Implicit Usage Data</h3>
+      <h3>2.8 User Feedback and Support Data</h3>
+      <p>
+        When you submit feedback through the in-app feedback feature ("Report a
+        Bug"), we collect the following information:
+      </p>
+      <ul>
+        <li>
+          <strong>Feedback Text:</strong> The comments and descriptions you
+          provide about issues, bugs, or suggestions (up to 1000 characters)
+        </li>
+        <li>
+          <strong>User Identification:</strong> If you are logged in, we
+          automatically collect your email address, name (if available in your
+          profile), and user ID to associate your feedback with your account and
+          enable us to respond to your feedback
+        </li>
+        <li>
+          <strong>Screenshots:</strong> Optional images you may choose to attach
+          to your feedback submission (PNG or JPEG format). Screenshots are
+          stored as base64-encoded data and sent to our feedback management
+          service
+        </li>
+        <li>
+          <strong>Technical Context:</strong> Device information (OS version,
+          device type, app version) and error context (if your feedback is
+          related to a specific error that occurred in the App)
+        </li>
+        <li>
+          <strong>Submission Metadata:</strong> Timestamp of when the feedback
+          was submitted
+        </li>
+      </ul>
+      <p>
+        <strong>Purpose:</strong> This data is collected to help us understand
+        and resolve issues, improve the App's functionality and user experience,
+        and respond to your feedback. Feedback submissions are processed and
+        stored through Sentry, our error tracking and feedback management
+        service.
+      </p>
+      <p>
+        <strong>Storage and Processing:</strong> Feedback data, including text
+        comments and optional screenshots, is stored in Sentry's systems. Your
+        feedback is associated with your user account (if logged in) to help us
+        track and respond to your concerns. Screenshots are stored as image
+        attachments in Sentry's user feedback system.
+      </p>
+      <p>
+        <strong>Voluntary Submission:</strong> Providing feedback is completely
+        voluntary. You are not required to submit feedback, and you can choose
+        whether to include screenshots or other information. If you are not
+        logged in, your feedback will be submitted anonymously (without user
+        identification).
+      </p>
+      <p>
+        <strong>Data Retention:</strong> We retain feedback submissions for as
+        long as necessary to address your concerns and improve the App. You can
+        request deletion of your feedback submissions by contacting us at
+        ascendapp.fitness@gmail.com.
+      </p>
+      <h3>2.9 Implicit Usage Data</h3>
       <p>We implicitly collect usage data through:</p>
       <ul>
         <li>Workout timestamps and activity patterns</li>
@@ -624,17 +683,17 @@
           protection of your data as described in this Privacy Policy
         </li>
       </ul>
-      <p><strong>Sentry</strong> (Error Tracking and Performance Monitoring)</p>
+      <p><strong>Sentry</strong> (Error Tracking, Performance Monitoring, and User Feedback)</p>
       <ul>
         <li>
           <strong>Data Shared:</strong> Error logs, stack traces, device
           information (OS version, device type, app version), performance data
           (sampled at 10% in production), session data (session start/end
-          times), and breadcrumbs (user actions leading to errors)
+          times), breadcrumbs (user actions leading to errors), <strong>and user feedback submissions (including feedback text, optional screenshots/images, user identification if provided, and submission metadata)</strong>
         </li>
         <li>
-          <strong>Purpose:</strong> Error tracking, crash reporting, and
-          performance monitoring to improve app stability and user experience
+          <strong>Purpose:</strong> Error tracking, crash reporting,
+          performance monitoring, <strong>and processing user feedback submissions</strong> to improve app stability and user experience
         </li>
         <li>
           <strong>Privacy Policy:</strong>
@@ -644,13 +703,13 @@
           <strong>Data Protection:</strong> Sentry provides equal or greater
           protection of your data as described in this Privacy Policy. Error
           messages are sanitized to remove sensitive information before being
-          sent to Sentry.
+          sent to Sentry. <strong>User feedback submissions, including optional screenshots, are stored securely in Sentry's user feedback system.</strong>
         </li>
         <li>
-          <strong>Note:</strong> Sentry is used for technical error tracking and
-          performance monitoring, not for advertising or marketing analytics. We
+          <strong>Note:</strong> Sentry is used for technical error tracking,
+          performance monitoring, <strong>and user feedback management</strong>, not for advertising or marketing analytics. We
           do not use Sentry to track your personal fitness data or workout
-          information.
+          information. <strong>User feedback submissions are voluntary and may include screenshots you choose to attach. If you are logged in, your feedback will be associated with your account to help us respond to your concerns.</strong>
         </li>
       </ul>
       <p><strong>Mixpanel</strong> (Product Analytics)</p>
@@ -926,8 +985,8 @@
           user profile data)
         </li>
         <li>
-          Request deletion of your error tracking data from Sentry (error logs
-          and session data)
+          Request deletion of your error tracking data from Sentry (error logs,
+          session data, <strong>and user feedback submissions including any attached screenshots</strong>)
         </li>
       </ul>
       <p>
